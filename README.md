@@ -1,10 +1,12 @@
 # **Navier Stoked**: *A Platform Fighter Based on Realtime Fluid*
 
+![screenshot](https://raw.githubusercontent.com/iBrushC/navier-stoked/refs/heads/main/ss/icon.png)
+
 ### *Important Note*
 This is a tech demo more than anything else. I threw it together in about two weeks for a university final project, so it's quite rough around the edges. Most of the code is fairly clean though, so if someone did have interest in modifying it further, they could.
 
 ## Dependencies
-Building requires basically any C compliler, Raylib 5.5 (other versions not tested), and Physac 2D physics header. Other than support for relatively modern OpenGL, the requirements to run it should be quite low. It can normally get 50-60 FPS on a 2021 Thinkpad with integrated graphics.
+Building requires basically any C compliler, Raylib 5.5 (other versions not tested), Physac 2D physics header, and Raygui header if you want to recompile shaders through the debug GUI. Other than support for relatively modern OpenGL, the requirements to run it should be quite low. It can normally get 50-60 FPS on a 2021 Thinkpad with integrated graphics.
 
 ## Gameplay
 Each player requires a controller with two joysticks, two triggers, and two bumpers, so any Xbox or Playstation controller should do. The mappings are
